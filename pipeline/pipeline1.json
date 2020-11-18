@@ -90,7 +90,8 @@
 				}
 			},
 			{
-				"name": "Lookup Sara",
+				"name": "Lookup1",
+				"description": "Sara Test",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -122,7 +123,7 @@
 				"type": "ForEach",
 				"dependsOn": [
 					{
-						"activity": "Lookup Sara",
+						"activity": "Lookup1",
 						"dependencyConditions": [
 							"Succeeded"
 						]
