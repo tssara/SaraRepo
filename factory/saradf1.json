@@ -1,0 +1,12 @@
+{
+	"name": "saradf1",
+	"properties": {
+		"globalParameters": {
+			"saraparam1": {
+				"type": "string",
+				"value": "xxxx"
+			}
+		}
+	},
+	"location": "eastus"
+}

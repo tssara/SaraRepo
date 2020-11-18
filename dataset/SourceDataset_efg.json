@@ -1,0 +1,43 @@
+{
+	"name": "SourceDataset_efg",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "DMS_1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "DMS.xlsx",
+				"container": "saracontainer"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Table name",
+				"type": "String"
+			},
+			{
+				"name": "Column name",
+				"type": "String"
+			},
+			{
+				"name": "Key/Relationship",
+				"type": "String"
+			},
+			{
+				"name": "Table type",
+				"type": "String"
+			},
+			{
+				"name": "Remarks",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
