@@ -1094,6 +1094,7 @@
 					},
 					{
 						"name": "Filter1",
+						"description": "sarajnghgg",
 						"type": "Filter",
 						"dependsOn": [],
 						"userProperties": [],
