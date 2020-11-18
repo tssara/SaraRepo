@@ -7,7 +7,7 @@
 				"type": "IfCondition",
 				"dependsOn": [
 					{
-						"activity": "Get Metadata1",
+						"activity": "Get",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -61,7 +61,7 @@
 				}
 			},
 			{
-				"name": "Get Metadata1",
+				"name": "Get",
 				"type": "GetMetadata",
 				"dependsOn": [],
 				"policy": {
