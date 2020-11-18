@@ -982,6 +982,7 @@
 					},
 					{
 						"name": "Lookup1",
+						"description": "Sara Test",
 						"type": "Lookup",
 						"dependsOn": [],
 						"policy": {
