@@ -30,6 +30,35 @@
 					},
 					"traceLevel": "Fine"
 				}
+			},
+			{
+				"name": "dataflow1_copy1_copy1",
+				"type": "ExecuteDataFlow",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"dataflow": {
+						"referenceName": "dataflow1",
+						"type": "DataFlowReference",
+						"parameters": {
+							"parameter1": "concat(\"Pooja\",\"Saravana kumar\")",
+							"parameter2": "concat(\"ABirami \",\"Bala subramani\")",
+							"parameter3": "concat(\"Logesh\",\"Balasubramani\")"
+						}
+					},
+					"compute": {
+						"coreCount": 8,
+						"computeType": "General"
+					},
+					"traceLevel": "Fine"
+				}
 			}
 		],
 		"parameters": {
